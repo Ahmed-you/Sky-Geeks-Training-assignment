@@ -1,0 +1,22 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.products-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.products-list-ul {
+  padding: 25px;
+  border: 1px black solid;
+  border-radius: 5px;
+  background-color: lightgray;
+}
+
+.products-list-ul li {
+  font-weight: bold;
+  color: green;
+  margin-bottom: 10px;
+}
